@@ -1,0 +1,245 @@
+* {
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url('cinema.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.navbar{
+    background: black;
+    font-family: fantasy;
+    padding-left: 400px;
+    padding-right: 250px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand a{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: cursive;
+    color: rgb(92, 38, 89);
+}
+li{
+   list-style: none;
+   display: inline-block; 
+}
+
+li a{
+    color: rgb(76, 37, 92);
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.welcome{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    font-size: 25px;
+    color: rgb(247, 244, 239);
+    margin: auto;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 10vh;
+
+}
+
+.search-container{
+    width: 50%;
+    display: flex;
+}
+
+.search-input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    }
+
+.search-button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #531b79;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    align-self: stretch;
+}
+
+.search-button:hover{
+    background-color: #0056b3;
+}
+
+h2{
+    padding: 45px;
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.top-movies{
+    text-align: center;
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line-1{
+    display: flex;
+}
+
+.line-2{
+    display: flex;
+}
+
+.film-poster{
+    margin: 30px;
+    text-align: center;
+}
+
+.film-poster img{
+    width: 200px; 
+    height: auto; 
+    border: 2px solid #000000; 
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.film-poster p{
+    margin-top: 5px; 
+    font-size: 19px; 
+    color: #ffffff; 
+}
+
+.film-poster img:hover{
+    transform: scale(1.2);
+}
+
+.build{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer p{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li{
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #561a5c;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    max-width:420px;
+    margin:50px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #743174;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus{
+    border:2px solid #853381; 
+}
+
+textarea{
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"]{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#91387a;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+    background:#812866;
+}
